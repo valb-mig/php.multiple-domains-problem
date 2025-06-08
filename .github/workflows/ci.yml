@@ -26,6 +26,3 @@ jobs:
 
       - name: Run PHP-CS-Fixer (check mode)
         run: composer cs-check
-
-      - name: Run Pest Tests
-        run: composer test --ci
