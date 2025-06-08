@@ -8,7 +8,8 @@
     },
     "scripts": {
         "test": "vendor/bin/pest",
-        "cs-fix": "vendor/bin/php-cs-fixer fix ./src"
+        "cs-fix": "vendor/bin/php-cs-fixer fix ./src",
+        "cs-check": "vendor/bin/php-cs-fixer fix --dry-run --diff ./src"
     },
     "authors": [
         {

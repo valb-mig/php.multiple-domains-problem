@@ -25,7 +25,7 @@ jobs:
         run: composer install --no-interaction --prefer-dist
 
       - name: Run PHP-CS-Fixer (check mode)
-        run: composer cs-fix
+        run: composer cs-check
 
       - name: Run Pest Tests
         run: composer test
