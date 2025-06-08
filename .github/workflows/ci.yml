@@ -28,4 +28,4 @@ jobs:
         run: composer cs-check
 
       - name: Run Pest Tests
-        run: composer test
+        run: vendor/bin/pest --no-cache --no-interaction
